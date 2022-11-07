@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="Chess.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Chess</title>
+</head>
+
+<body>
+    <audio id="moveAudio">
+        <source src="mp3/soundMove.mp3" type="audio/mpeg">
+    </audio>
+    <audio id="winAudio">
+        <source src="mp3/win.mp3" type="audio/mpeg">
+    </audio>
+    <div class="gameMenu">
+        <h1>Chess</h1>
+        <h2 id="tog">White's Turn</h2>
+
+        <div class="custom">
+            <div id="themes" class="themes">
+                <div id="Blue" class="theme">Blue</div>
+                <span class="span"></span>
+                <div id="Wood" class="theme">Wood</div>
+                <span class="span"></span>
+                <div id="Grey" class="theme">Grey</div>
+                <span class="span"></span>
+                <div id="Brown" class="theme">Brown</div>
+            </div>
+            <div id="themes" class="themes">
+                <div id="Classic" class="theme">Classic</div>
+                <span class="span"></span>
+                <div id="Cartoon" class="theme">Cartoon</div>
+                <span class="span"></span>
+                <div id="Neon" class="theme">Neon</div>
+                <span class="span"></span>
+                <div id="Metal" class="theme">Metal</div>
+            </div>
+        </div>
+    </div>
+    <div class="main">
+        <div class="player player-top">
+            <div class="player-avatar"><img src="player.jpeg" alt="" height="100%"></div>
+            <div class="player-name"><span class="player2">PLAYER 2</span></div>
+            <div class="cap Bcap">
+            </div>
+        </div>
+        <div class='mainBoard'>
+        </div>
+        <div class="player player-bottom">
+            <div class="player-avatar"><img src="player.jpeg" alt="" height="100%"></div>
+            <div class="player-name"><span class="player1">PLAYER 1</span></div>
+            <div class="cap Wcap">
+            </div>
+        </div>
+    </div>
+    <div class="move">
+        <div class="moveList">
+            MOVES
+        </div>
+
+    </div>
+    <script src="Chess.js"></script>
+</body>
+
+</html>

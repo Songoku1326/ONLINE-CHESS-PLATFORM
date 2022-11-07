@@ -1,0 +1,198 @@
+
+body {
+    display: flex;
+    background-color: rgb(49, 46, 43);
+    place-items: center;
+    overflow-x: hidden;
+    display: flex;
+
+}
+
+h1 {
+    color: white;
+}
+
+.mainBoard {
+    width: 910px;
+    height: 910px;
+    display: flex;
+    overflow: hidden;
+    border-radius: 5px;
+    border: 2px solid black;
+    flex-direction: column;
+    padding: 0%;
+}
+
+.divv {
+    display: flex;
+}
+
+li {
+    list-style: none;
+    display: grid;
+    place-items: center;
+    font-size: 0px;
+}
+
+.player {
+    background-color: rgb(49, 46, 43);
+    height: 60px;
+    width: 910px;
+    display: flex;
+    border-radius: 5px;
+    /* border: 2px solid black; */
+    margin-top: 3px;
+    margin-bottom: 3px;
+}
+
+.box {
+    height: 110px;
+    width: 110px;
+    place-items: center;
+    font-size: 0px;
+    border: 2px solid black;
+}
+
+#tog {
+    margin: 10px 0px;
+    color: white;
+}
+
+.gameMenu {
+    display: grid;
+    place-items: center;
+    overflow-x: hidden;
+    /* margin: 100px; */
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.main {
+    margin-right: 50px;
+}
+
+.custom {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    ;
+}
+
+.allimg {
+    width: 100%;
+}
+
+.themes {
+    padding: 10px;
+}
+
+.theme {
+    text-align: center;
+    align-items: center;
+    justify-items: center;
+    background-color: rgb(177, 255, 255);
+    font-weight: bold;
+    font-size: 15px;
+    width: 5.5vh;
+    height: 2.5vh;
+    padding: 10px;
+}
+
+.span {
+    margin: 10px;
+}
+
+.player-avatar {
+    margin: 5px;
+    height: 50px;
+    width: 55px;
+    border-radius: 5px;
+    margin-right: 0px;
+}
+
+.player-name {
+    background-color: rgb(49, 46, 43);
+    margin-left: auto;
+    margin: 5px;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    height: 50px;
+    width: 150px;
+    padding-top: 5px;
+    padding-left: 10px;
+}
+
+.move {
+    height: 1000px;
+    width: 800px;
+    margin: 10px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    background-color: rgb(39, 37, 34);
+}
+
+.moveList {
+    display: flex;
+    height: 50px;
+    width: 800px;
+    color: white;
+    margin-top: 10px;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(39, 37, 34);
+}
+
+.moves {
+    display: flex;
+    margin: 20px;
+    font-size: 20px;
+    color: white;
+    font-weight: bold;
+
+}
+
+.m_no {
+    background-color: rgb(39, 37, 34);
+    color: white;
+    width: 150px;
+    height: 20px;
+    /* margin: 10px; */
+    display: flex;
+    align-items: cneter;
+    justify-content: center;
+}
+
+.wm {
+    background-color: rgb(39, 37, 34);
+    color: white;
+    width: 150px;
+    height: 20px;
+    /* margin: 10px; */
+}
+
+.bm {
+    background-color: rgb(39, 37, 34);
+    color: white;
+    width: 150px;
+    height: 20px;
+}
+
+
+.cap {
+    height: 50px;
+    width: 400px;
+    background-color: rgb(49,46,43);
+    display: flex;
+    align-items: center;
+    margin-right: auto;
+}
+
+.capture {
+    height: 25px;
+    width: auto;
+}
+
+
+
+
+

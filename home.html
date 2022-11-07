@@ -1,0 +1,35 @@
+<html>
+
+<head>
+    <title>
+        CHESS
+    </title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <div class="container">
+        <form action="index.html" method="POST">
+            <label>Player 1:</label>
+            <br>
+            <input type="text" id="p1name" name="p1name" placeholder="Enter player 1 name.." />
+            <br><br>
+            <label>Player 2:</label>
+            <br>
+            <input type="text" id="p2name" name="p2name" placeholder="Enter player 2 name.." />
+            <br><br>
+            <input class="btn" type="submit" onclick="handleSubmit()" />
+        </form>
+    </div>
+    <script>
+        function handleSubmit() {
+            const p1name = document.getElementById('p1name').value;
+            const p2name = document.getElementById('p2name').value;
+            sessionStorage.setItem("p1name", p1name);
+            sessionStorage.setItem("p2name", p2name);
+            return;
+        }
+    </script>
+</body>
+
+</html>
